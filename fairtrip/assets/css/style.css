@@ -1106,14 +1106,12 @@ form label.error{
   top: 0;
   width: 56px;
   height: 56px;
-  font-size: 18px;
-  background: var(--primary-color);
+  font-size: 24px;
+  background: #0ec12f;
   color: #fff;
   line-height: 56px;
   text-align: center;
   border-radius: 50%;
-  -webkit-animation: icon-bounce 0.8s ease-out infinite;
-    animation: icon-bounce 0.8s ease-out infinite;
 }
 
 .main-header .header-upper .call-to a .nmbr{
