@@ -2287,7 +2287,6 @@ body.visible-sidebar{
   position: relative;
   font-weight: 400;
   color: var(--dark-gray-gray);
-  margin-bottom: 20px;
 }
 
 .package-block h5 a{
@@ -2301,21 +2300,50 @@ body.visible-sidebar{
 .package-block .lower-box .info{
   position: relative;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .package-block .lower-box .info .duration{
   position: relative;
-  float: left;
+  float: right;
 }
 
 .package-block .lower-box .info .persons{
   position: relative;
   float: right;
 }
+.package-block .lower-box .category{
+  position: relative;
+  line-height: 24px;
+  color: var(--dark-gray-gray);
+  font-weight: 400;
+  font-family: 'Gilroy_Bold', sans-serif;
+}
+.package-block .lower-box .info .flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.package-block .lower-box .info .avaible{
+  position: relative;
+  float: left;
+}
+.package-block .lower-box .info .calendar{
+  position: relative;
+  float: left;
+}
 
 .package-block .lower-box .info .duration i,
-.package-block .lower-box .info .persons i{
+.package-block .lower-box .info .persons i, 
+.package-block .lower-box .info .avaible i,
+.package-block .lower-box .info .calendar i{
+  position: relative;
+  color: var(--primary-color);
+  font-size: 14px;
+  padding-right: 5px;
+  line-height: 20px;
+}
+{
   position: relative;
   padding-right: 5px;
   color: var(--primary-color);
@@ -2323,7 +2351,7 @@ body.visible-sidebar{
 
 .package-block .bottom-box{
   position: relative;
-  margin-top: 25px;
+  margin-top: 15px;
   padding: 15px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
@@ -2361,7 +2389,7 @@ body.visible-sidebar{
   position: relative;
   font-size: 14px;
   color: var(--medium-gray-color);
-  line-height: 20px;
+  line-height: 27px;
   float: right;
 }
 
@@ -6094,7 +6122,6 @@ body.visible-sidebar{
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  background-attachment:fixed;
 }
 
 .inner-banner .image-layer:before{
